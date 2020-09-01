@@ -1,0 +1,18 @@
+npm install -g @vue/cli
+
+run cmd prompt in admin mode
+setx /M path "%path%;%appdata%\npm"
+
+vue create hello-world -d
+
+cd hello-world
+
+npm run serve
+
+npm install sass-loader --save-dev
+npm install --save-dev node-sass
+npm install bulma --save-dev
+
+vue add router
+
+vue add vuex
